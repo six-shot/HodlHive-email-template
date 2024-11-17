@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              inter: ["Inter", "sans-serif"],
+              aeonik: ["Aeonik", "sans-serif"],
+              geist: ["Geist", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://db.onlinewebfonts.com/c/d95bf2f30035a050142565e03d44da71?family=Aeonik"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <title>Document</title>
+  </head>
+  <body class="md:hidden block">
+    <div class="py-8 px-5">
+      <div
+        class="w-full bg-[#1a1a1a] h-[110px] flex justify-center items-center"
+      >
+        <h4 class="text-[43px] font-bold text-white font-aeonik">Hodlhive</h4>
+      </div>
+      <div class="py-6 px-5 flex flex-col gap-6">
+        <h5 class="text-sm text-[#222] font-bold font-aeonik">Hello Joshua,</h5>
+        <p class="text-[#222] font-inter text-sm">
+          Please confirm the action using the provided 6-digit code.
+        </p>
+        <div className="py-[26px]">
+          <h5 class="text-black font-bold text-[44px] text-center font-aeonik">
+            204192
+          </h5>
+        </div>
+        <p class="text-[#222] font-inter text-sm">
+          If you didn&apos;t initiate this action, please change your password
+          or contact our support team immediately via the in-app chat or email.
+        </p>
+        <hr class="w-full h-[1px] border border-[#EBEDFA]" />
+        <div class="flex flex-col font-inter text-[#222] text-sm">
+          <p>Best regards,</p>
+          <p>The Hodlhive Team</p>
+          <p class="text-[#3569DD]">hodlhive.com | support@hodlhive.com</p>
+        </div>
+      </div>
+      <p class="font-inter text-center text-[#484848] font-medium text-sm mt-6">©2024 Hodlhive. All rights reserved.</p>
+    </div>
+  </body>
+</html>
